@@ -9,7 +9,7 @@ var clearall = document.getElementById("clear");
 
 var localitems = JSON.parse(localStorage.getItem('Allkey'));
 
-// date and time
+//  date and time
 
 var today = new Date();
 var ampm = "am";
