@@ -1,0 +1,132 @@
+body {
+    box-sizing: border-box;
+    background-color: purple;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 30px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 20px;
+    height: auto;
+}
+
+.wrapper {
+    padding-left: 20px;
+    margin: auto;
+}
+
+header {
+    color: blue;
+    font-size: 30px;
+    font-size: 150%;
+}
+
+form input {
+    margin: auto;
+    width: 90%;
+    height: 100px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+button {
+    width: 92%;
+    height: 50px;
+    margin-top: 10px;
+    color: white;
+    font-size: 150%;
+    background: skyblue;
+    justify-content: space-between;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 20px;
+    color: blue;
+}
+
+.list {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+    font-size: 100%;
+    height: auto;
+}
+
+.list-wrapper {
+    border-bottom: 0.5px solid gray;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    width: 95%;
+}
+
+.chkbox {
+    margin-top: 20px;
+    width: 4%;
+    float: left;
+}
+
+.list-text {
+    width: 88%;
+    display: inline-block;
+}
+
+.list-text p {
+    padding: 2px 0px 0px 8px;
+    text-align: justify;
+}
+
+.buttons {
+    float: right;
+    width: 3%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+
+}
+
+.buttons #trash {
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.buttons #pen {
+    cursor: pointer;
+    color: red;
+    margin-bottom: 5px;
+
+}
+
+section {
+    margin-left: 20px;
+    font-size: 10px;
+    font-style: italic;
+    word-spacing: 5px;
+}
+
+.checked {
+    text-decoration: line-through 2px solid gray;
+}
+
+#clear {
+    background-color: red;
+    font-size: 100%;
+    margin-top: 10px;
+}
